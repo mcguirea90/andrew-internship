@@ -1156,4 +1156,30 @@ text-shadow: none;
 		font-size: 2em;
 	}
 
-	
+	.slick-next:before, .slick-prev:before  {
+		color: black !important;
+		border-radius: 50%;
+		font-size: 20px !important;
+		}
+		
+		.slick-next {
+		  transform: translate(-50%,-50%) !important;
+		}
+		.slick-prev {
+		  transform: translate(50%,-50%) !important
+		}
+		
+		.card {
+		  margin: 0px 100px;
+		}
+		.slick-slide {
+		  padding: 0 8px;
+		}
+		.slick-slider {
+		  padding: 0px ;
+		}
+		
+		.slick-list {
+		  margin: 0px 8px !important
+		}
+	  
