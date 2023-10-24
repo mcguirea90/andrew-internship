@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import NFTSkeleton from "../UI/NFTSkeleton";
 import NFTCard from "../UI/NFTCard";
 import axios from "axios";
+import "aos/dist/aos.css";
 
 
 const NewItems = () => {
@@ -75,7 +76,7 @@ const NewItems = () => {
   }
   
   return (
-    <section id="section-items" className="no-bottom">
+    <section id="section-items" className="no-bottom" data-aos="fade-in">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
